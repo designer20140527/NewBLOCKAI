@@ -750,7 +750,7 @@ export default function Page() {
                   "Global expansion of the BLOCKAI network",
                   "Continued token staking and rewards improvements",
                   "Increased decentralization and community governance",
-                  "Integration with DeFi protocols and further blockchain ecosystems",
+                  "Integration with DeFi protocols and further blockchain ecosystems"
                 ],
               },
             ].map((phase, index) => (
@@ -795,14 +795,14 @@ export default function Page() {
                       {phase.items.map((item, itemIndex) => (
                         <motion.li
                           key={itemIndex}
-                          className="flex items-start gap-3 text-gray-700"
+                          className="flex items-start gap-3 text-gray-700 text-left"
                           initial={{ opacity: 0, y: 10 }}
                           whileInView={{ opacity: 1, y: 0 }}
                           viewport={{ once: true }}
                           transition={{ duration: 0.3, delay: itemIndex * 0.1 }}
                         >
                           <div className="w-1.5 h-1.5 rounded-full bg-black mt-2.5 flex-shrink-0" />
-                          <span>{item}</span>
+                          <span className="flex-1">{item}</span>
                         </motion.li>
                       ))}
                     </ul>
@@ -919,7 +919,7 @@ export default function Page() {
                     { name: "Twitter", url: "https://x.com/BLOCKAI_SOL" },
                     { name: "Telegram", url: "https://t.me/BLOCKAI_Portal" },
                     { name: "Dextools", url: "#" },
-                    { name: "Dexscreener", url: "#" },
+                    { name: "Dex screener", url: "#" },
                   ].map((item) => (
                     <li key={item.name}>
                       <Link 
