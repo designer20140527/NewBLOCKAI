@@ -163,7 +163,7 @@ export default function Page() {
               <Twitter size={20} />
             </Link>
             <Link 
-              href="https://t.me/BLOCKAI_Portal" 
+              href="https://t.me/BLOCKAI_Official" 
               target="_blank"
               rel="noopener noreferrer" 
               className="text-gray-600 hover:text-black transition-colors"
@@ -250,7 +250,7 @@ export default function Page() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <Link
-              href="https://t.me/BLOCKAI_Portal"
+              href="https://t.me/BLOCKAI_Official"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-8 py-3 border border-black rounded-full hover:bg-black/5 transition-colors"
@@ -958,7 +958,7 @@ export default function Page() {
                 <ul className="space-y-2">
                   {[
                     { name: "Twitter", url: "https://x.com/BLOCKAI_SOL" },
-                    { name: "Telegram", url: "https://t.me/BLOCKAI_Portal" },
+                    { name: "Telegram", url: "https://t.me/BLOCKAI_Official" },
                     { name: "Dextools", url: "#" },
                     { name: "Dex screener", url: "#" },
                   ].map((item) => (
